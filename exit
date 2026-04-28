@@ -1,0 +1,579 @@
+[33mcommit cefaed4c63430a0358915824f0a5fc3b284468de[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri Apr 9 11:25:30 2021 +0100
+
+    :green_heart: Force CI build and run
+
+[33mcommit c0a57ab6053bd393bb4e655ae37895d363b299b2[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri Apr 9 11:21:54 2021 +0100
+
+    :construction_worker: GitHub actions and act update
+
+[33mcommit f99fa56c24eebdc6247773e61de7b15f7c965098[m[33m ([m[1;33mtag: [m[1;33m1.4.2[m[33m)[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sat Apr 3 17:48:01 2021 +0100
+
+    :rotating_light: Fixes linting
+
+[33mcommit c3365138dce40ffb0340a51cd4b91bed64061832[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sat Apr 3 17:45:50 2021 +0100
+
+    :white_check_mark: Adds unit tests and other refactors
+
+[33mcommit 3c2d0eca4e73352009284408aad957a772dc545f[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sat Apr 3 10:26:38 2021 +0000
+
+    🤓 Adds linitng in vscode
+
+[33mcommit 44414bcfe271a2f81bbfa603faf1f7147f731db1[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sat Apr 3 11:17:32 2021 +0100
+
+    :truck: Adds devcontainer
+
+[33mcommit 8ae6f1e5631ecba84616aa8ca0f098d8cef69542[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sat Apr 3 09:53:14 2021 +0100
+
+    :construction_worker: Actions update for secrets
+
+[33mcommit 278575963014f2cdebd7069666b349ee941b5e95[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sat Mar 27 17:46:58 2021 +0000
+
+    small fixes
+
+[33mcommit 94df33284326fa6cba28efc192c1cd4c29eb8916[m[33m ([m[1;33mtag: [m[1;33m1.4.1[m[33m)[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri Mar 26 16:30:41 2021 +0000
+
+    2021 refresh - linting fixes
+
+[33mcommit b759a0f7f9de1de54349dd0bf044d6ed9162ae4e[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri Mar 26 16:28:41 2021 +0000
+
+    2021 refresh - fixes
+
+[33mcommit f8d83edae99115daddaf0d4fd596b364d9b73bcf[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri Mar 26 16:27:20 2021 +0000
+
+    2021 refresh - fixes
+
+[33mcommit 30320dba255ff101703a1d446879d82faa8099b7[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri Mar 26 16:25:23 2021 +0000
+
+    2021 refresh
+
+[33mcommit 12e1374d32f5ac233c3342f74c63e271e3e23fb2[m[33m ([m[1;33mtag: [m[1;33m1.4.0[m[33m)[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Tue Nov 10 15:59:04 2020 +0000
+
+    removed app service workflow
+
+[33mcommit eddd390fa895d04a6374fb44afa6233113a2899d[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Tue Nov 10 15:54:28 2020 +0000
+
+    Adding workflow file
+
+[33mcommit 49069059b00d8f695b6495547161377a8bf1b002[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Tue Nov 10 15:44:37 2020 +0000
+
+    stupid error in web tests
+
+[33mcommit 5c4504b99924b626d85ab7eb24142f6d648f7a1d[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Tue Nov 10 15:42:13 2020 +0000
+
+    fix webapp release
+
+[33mcommit bc92d2330120fd39f7fa04b53bada6166b83fc3d[m
+Merge: f1169e3 7893512
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Tue Nov 10 15:40:16 2020 +0000
+
+    Merge branch 'master' of https://github.com/benc-uk/python-demoapp into master
+
+[33mcommit f1169e328ef7691fc6553654d88853f6c80d6ea4[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Tue Nov 10 15:39:37 2020 +0000
+
+    fix aks release
+
+[33mcommit 7893512713f9fb59aca173b3ce4535101dd42cf1[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Tue Nov 10 15:35:08 2020 +0000
+
+    Fairly big app revamp (#1)
+
+[33mcommit 634bae8fab990a166fd967dae87c70b81fac3445[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sun Nov 1 23:34:27 2020 +0000
+
+    docs blah
+
+[33mcommit ef873f6121ba524746b84c9e261b476d80c7768e[m[33m ([m[1;33mtag: [m[1;33m1.3.0[m[33m)[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sun Nov 1 23:05:57 2020 +0000
+
+    remove API tests
+
+[33mcommit 4b4e9be69e9f0fda1f1437ddc5c2d80710fa26b0[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sun Nov 1 22:47:42 2020 +0000
+
+    new pipelines
+
+[33mcommit ec2b0d93eea6ea7144b13ef1329325196cbb1aae[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sun Nov 1 22:46:53 2020 +0000
+
+    new pipelines
+
+[33mcommit bf37f05f68b7380771ee2d454d1cb7ff2c609abb[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sun Aug 9 21:36:32 2020 +0100
+
+    2020 update
+
+[33mcommit 6ab3128f5087c7ccc246fef232a154f82a0a5b09[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri Jan 3 11:17:48 2020 +0000
+
+    readme
+
+[33mcommit 49a51aaa81d3d239ded827c4b3ed2febf160f519[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri Jan 3 11:12:17 2020 +0000
+
+    readme rename
+
+[33mcommit 00f8e04e2ba7686b9b7633a885a6ef5e07da7d04[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri Jan 3 11:11:20 2020 +0000
+
+    readme rename
+
+[33mcommit f55b41785c128730facb0e47fcbf5dc9de86b54d[m
+Merge: 2fa628b 3280849
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri Jan 3 10:58:01 2020 +0000
+
+    Merge branch 'master' of https://github.com/benc-uk/python-demoapp
+
+[33mcommit 2fa628b8aa266a8e6c19b349ac9c36196af00b01[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri Jan 3 10:57:25 2020 +0000
+
+    readme
+
+[33mcommit 3280849e74e913c2a11598bdae81471587010ccf[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Mon Dec 30 17:28:32 2019 +0000
+
+    Update readme.md
+
+[33mcommit 32323fb36bbb3335824e6a4b6f11b81c67576644[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri Nov 29 12:57:43 2019 +0000
+
+    tidy up
+
+[33mcommit c42192dd9f9764d6cb49292740997d35aae7e35a[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri Nov 29 12:48:01 2019 +0000
+
+    helm
+
+[33mcommit 5948ce3bd0aa3cbc60ce0f54baf2ef9215fac091[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri Nov 29 12:40:41 2019 +0000
+
+    helm
+
+[33mcommit ff8606d6f47d4d2ba41e2001025cdc2c5d610d6c[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri Nov 29 10:05:23 2019 +0000
+
+    dfsfsd
+
+[33mcommit 7ac8d85d6cd67f1a3389c212120e4fa5a5199756[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri Nov 29 09:59:08 2019 +0000
+
+    hello
+
+[33mcommit ec84d0ed259291170f3a22b387df18cb45db7e88[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri Nov 29 09:53:15 2019 +0000
+
+    crap
+
+[33mcommit 794fa0163707f1eee753b58f0f18e3de62266240[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri Nov 29 09:47:11 2019 +0000
+
+    Create blank.yml
+
+[33mcommit c94bb68453d802f5fcc6bd1678a372809632915c[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri Nov 29 09:46:35 2019 +0000
+
+    crap
+
+[33mcommit 48b041788d8e45fadedad43a83df9fff3bdfd790[m
+Merge: 7e9c3ac ab1a029
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri Nov 29 09:45:52 2019 +0000
+
+    m
+
+[33mcommit 7e9c3acb86e2ca4fb85ff8fc566dcf8c8c7f7eef[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri Nov 29 09:44:28 2019 +0000
+
+    test
+
+[33mcommit ab1a0294a1ec4f972eac87510d711d5b81e7976d[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri Nov 29 09:41:21 2019 +0000
+
+    Update build-deploy-aks.yml
+
+[33mcommit 2805b9d48dd999e0494ee458d1a1bfd2c9fa4be1[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri Nov 29 09:39:08 2019 +0000
+
+    Update
+
+[33mcommit 8b6feafb141a50deeaa7afe3b5d14149bbf2dfcc[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri Nov 29 09:32:08 2019 +0000
+
+    Moved to github actions
+
+[33mcommit e4a40857122559c61d3bcccca340085e5e73d9c8[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Mon Jun 24 08:50:34 2019 +0100
+
+    sync up
+
+[33mcommit 8114c418ec12bab482313b189ea67fcf10ae8b77[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri May 3 21:45:22 2019 +0100
+
+    Updated
+
+[33mcommit 454dfb07a9d25b6e37fbaba91da84cf125a3df73[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Mon Apr 8 18:25:23 2019 +0100
+
+    Moved to submodules for ARM templates
+
+[33mcommit 14a4be68f0641ffa0032d008584f0d534c3684f6[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri Apr 5 14:01:16 2019 +0100
+
+    Removed ARM templates
+
+[33mcommit d98ed6d139d33fa515ce527830ebb70c4bdbf17f[m
+Author: Ben Coleman <becolem@microsoft.com>
+Date:   Tue Jan 22 11:17:43 2019 +0000
+
+    Switched to Python 3.6 Jessie
+
+[33mcommit 05e570b4322aac8370a650c4c800c2486001b3e8[m
+Author: Ben Coleman <becolem@microsoft.com>
+Date:   Tue Jan 22 11:12:35 2019 +0000
+
+    Moved to YAML builds
+
+[33mcommit 05a25b7b4db13cc5bb4938ef8a9c59f5dbcaebf9[m
+Author: Ben Coleman <becolem@microsoft.com>
+Date:   Fri May 11 19:25:40 2018 +0100
+
+    Pointless change
+
+[33mcommit 75e52d9d8e73609bf821e5500a08a297e6841693[m
+Author: Ben Coleman <becolem@microsoft.com>
+Date:   Wed May 9 13:48:10 2018 +0100
+
+    Tweak for CI/CD
+
+[33mcommit 7d4e235ac32a1e7966bf24a01ea7bb5452c6c7b7[m
+Author: Ben Coleman <becolem@microsoft.com>
+Date:   Thu Nov 23 12:32:19 2017 +0000
+
+    Minor update
+
+[33mcommit 915b9ea23744f5f093ba0fe287d4ff9ddd03d9ed[m
+Author: Ben Coleman <becolem@microsoft.com>
+Date:   Thu Nov 23 08:59:57 2017 +0000
+
+    Added ARM template for VSTS
+
+[33mcommit e57e819e5d797932190d7d8aec01eab5625dbeb6[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Thu Oct 26 18:49:16 2017 +0100
+
+    Tweaked
+
+[33mcommit 3c97ca70107db1db644a232190ecba72c213c4d4[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Mon Oct 2 17:26:44 2017 +0100
+
+    Smaller dials!
+
+[33mcommit 818f67bf7b3d5f46897d3247752aa633d2996b2b[m
+Merge: 6b7c961 929c427
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Mon Sep 25 12:01:17 2017 +0100
+
+    Merge branch 'master' of https://github.com/benc-uk/python-demoapp
+
+[33mcommit 6b7c961567abc7901956784d7dc0c6f4859c3e5e[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Mon Sep 25 12:01:10 2017 +0100
+
+    Moved around Azure templates and buttons
+
+[33mcommit 929c427cc9703e06ca470201ba8f713399619cd0[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri Sep 22 23:35:20 2017 +0100
+
+    Yep
+
+[33mcommit 1dac4960c189ce70f9181daf07afd45c6c54bccc[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri Sep 22 23:35:00 2017 +0100
+
+    Markup outside body
+
+[33mcommit ea745fda513cdce599384925573e7266391a7ed8[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Fri Sep 22 16:01:55 2017 +0100
+
+    CI trigger
+
+[33mcommit 94116faf00413a5db30b4e7387f0d56ebdd02412[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Thu Sep 21 21:09:05 2017 +0100
+
+    Revert demo state
+
+[33mcommit f476f13096bd89a4535a8e7d70dd9e4e4d72c1dc[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Thu Sep 21 12:06:23 2017 +0100
+
+    WinOps event
+
+[33mcommit def51d8e2df9d293cb95cd837cfb6d3446360c88[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Thu Sep 21 11:40:47 2017 +0100
+
+    Added WinOps Logo
+
+[33mcommit 7679dca6a1c62fbfe960ac729b8d7e176bec6409[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Thu Sep 21 10:48:42 2017 +0100
+
+    Update for WinOps
+
+[33mcommit 945f416c53b8a8a21782ca4406eccb8603aa6041[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Thu Sep 21 10:38:54 2017 +0100
+
+    Test commit for WinOps
+
+[33mcommit 087750ec51604a7cb14fa797743e0f11e746660d[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Mon Sep 18 16:09:33 2017 +0100
+
+    Readme complete and version updated to 1.2
+
+[33mcommit cde29ecb3e7082d096015442ae71493331cdfa25[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Mon Sep 18 15:09:54 2017 +0100
+
+    WAFC templated added
+
+[33mcommit 2c85a68987f625a79b632ba82221636985099d93[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Mon Sep 18 14:53:51 2017 +0100
+
+    Yes depends on BOTH
+
+[33mcommit a4ff10c289053f5f9100676991c86670fa596497[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Mon Sep 18 14:48:50 2017 +0100
+
+    Oh yes ARM is super fun :)
+
+[33mcommit f21590f6c7a8bfed64edd6f78a31d0e6a61856f7[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Mon Sep 18 14:46:30 2017 +0100
+
+    ARM Dependancies
+
+[33mcommit bdbb42d1c37898f6187dc67f96aad8161b1d857e[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Mon Sep 18 14:41:53 2017 +0100
+
+    ARM IS FUN
+
+[33mcommit 30e6440608435d0b125b2a8fb196321345fbfe2a[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Mon Sep 18 14:21:46 2017 +0100
+
+    Adding more ARM
+
+[33mcommit 647fd00e1bac3282e1119203d8c0bfc19ddf7bd8[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Mon Sep 18 14:17:29 2017 +0100
+
+    Putting in links to Azure templates pt1
+
+[33mcommit 48111664ece1d714f55b2f1f09baaf2537459be6[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Mon Sep 18 09:11:28 2017 +0100
+
+    Version 1.0 seems ok
+
+[33mcommit 4859a9a127524128366078e26f1ed7728103975b[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sun Sep 17 07:55:28 2017 +0100
+
+    Trapping
+
+[33mcommit 694e7e9e96eb935326054f40c49414bb4cb6df62[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sun Sep 17 07:52:04 2017 +0100
+
+    Fixing ports and trapping errors
+
+[33mcommit 66100d827329d54946041aabc35482fe20fbc18d[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sun Sep 17 07:25:15 2017 +0100
+
+    ARGYH!
+
+[33mcommit 20989c8222374faead072e92ecd5c5ff59750270[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sun Sep 17 07:18:26 2017 +0100
+
+    Maybe works?
+
+[33mcommit 59a26fa4df13a8d58f8a5f2f28e8e9372680a479[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sat Sep 16 20:05:18 2017 +0100
+
+    dsfr
+
+[33mcommit 1243cebebf0cfe05f12ac0f981c30264802fd28d[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sat Sep 16 20:02:05 2017 +0100
+
+    HOPE
+
+[33mcommit aee5108b6870734f1511428452cb7a1cd3f529c9[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sat Sep 16 19:59:29 2017 +0100
+
+    DOOO
+
+[33mcommit eb4b047731db86ff7c5f7f0db0f90575c89beda0[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sat Sep 16 19:54:58 2017 +0100
+
+    HELLO
+
+[33mcommit 2e588c1388b4c80b092292f1753dfeb4cc417340[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sat Sep 16 19:51:50 2017 +0100
+
+    FIXED?
+
+[33mcommit a34ed1ddea37383c290067b6c0314c3936cc036f[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sat Sep 16 19:49:01 2017 +0100
+
+    x64 baby
+
+[33mcommit 2d37c132fd06e3aefaaaaa2a1d62674187dcda04[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sat Sep 16 19:46:01 2017 +0100
+
+    YEAH?
+
+[33mcommit 6ed4e7a60b9dbce1250dc1953ceade9889e5590c[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sat Sep 16 19:36:54 2017 +0100
+
+    test
+
+[33mcommit 618a7fd904709daa73f5786fdbfedd280ac0a182[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sat Sep 16 19:29:10 2017 +0100
+
+    PLEASE WORK
+
+[33mcommit 683a158ec2dbee05eb49bf6646e0cc2983aeaa26[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sat Sep 16 19:23:54 2017 +0100
+
+    OK
+
+[33mcommit be85808327ffeeed61058bbdb384707724dd39e8[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sat Sep 16 19:21:09 2017 +0100
+
+    ok
+
+[33mcommit 9797a4105b5b93721e6e0253efd41b74a626d1bd[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sat Sep 16 19:15:31 2017 +0100
+
+    more kudu hassle
+
+[33mcommit 3327bd4536badfe54c4ebe278711ebca088014a5[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sat Sep 16 18:54:36 2017 +0100
+
+    This will never work
+
+[33mcommit 98025e2417ad46ee96a0a07fb33d57d946194240[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sat Sep 16 18:40:20 2017 +0100
+
+    Testing for Azure
+
+[33mcommit 31fb7fd95f8ef976e29b8c7db42e37399b6b2f9b[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sat Sep 16 18:23:52 2017 +0100
+
+    Added realtime monitoring
+
+[33mcommit 06220dfd41f74f7e0ed1ca89fe5fc4dc0b84915b[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Sat Sep 16 13:53:39 2017 +0100
+
+    Added monitor.html
+
+[33mcommit e27a918a30250b239e42abee2b34c152f0a5e339[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Tue Sep 12 10:47:54 2017 +0100
+
+    Testing automated build
+
+[33mcommit 12f7af35cf37fa917066264163cd01d1465aa2ef[m
+Author: Ben Coleman <benc.uk@gmail.com>
+Date:   Tue Sep 12 10:14:07 2017 +0100
+
+    Repo init
