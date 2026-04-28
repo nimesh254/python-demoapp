@@ -9,13 +9,6 @@ pipeline {
 
     stages {
 
-        stage('Checkout Code') {
-            steps {
-                echo "Pulling latest code from Git..."
-                git 'https://github.com/nimesh254/python-demoapp.git'
-            }
-        }
-
         stage('Build Docker Image') {
             steps {
                 echo "Building Docker image..."
