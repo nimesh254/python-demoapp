@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 echo "Pulling latest code from Git..."
-                git 'https://github.com/YOUR_USERNAME/python-demoapp.git'
+                git 'https://github.com/nimesh254/python-demoapp.git'
             }
         }
 
