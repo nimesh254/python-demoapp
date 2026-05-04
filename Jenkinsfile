@@ -19,24 +19,22 @@ pipeline {
 
         stage('Build Image') {
             steps {
-                echo "Building Docker image..."
                 sh "docker build -t $DOCKER_HUB/$IMAGE_NAME:$TAG -f build/Dockerfile ."
             }
         }
 
         stage('Push Image') {
             steps {
-                echo "Pushing image to Docker Hub..."
                 sh "docker push $DOCKER_HUB/$IMAGE_NAME:$TAG"
+
+                sh "docker tag $DOCKER_HUB/$IMAGE_NAME:$TAG $DOCKER_HUB/$IMAGE_NAME:latest"
+                sh "docker push $DOCKER_HUB/$IMAGE_NAME:latest"
             }
         }
 
         stage('Deploy') {
             steps {
-                echo "Deploying container..."
-
                 sh "docker rm -f $CONTAINER_NAME || true"
-
                 sh "docker run -d -p $PORT:5000 --name $CONTAINER_NAME $DOCKER_HUB/$IMAGE_NAME:$TAG"
             }
         }
