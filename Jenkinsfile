@@ -11,12 +11,6 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                checkout scm
-            }
-        }
-
         stage('Build Image') {
             steps {
                 sh "docker build -t $DOCKER_HUB/$IMAGE_NAME:$TAG -f build/Dockerfile ."
@@ -26,9 +20,6 @@ pipeline {
         stage('Push Image') {
             steps {
                 sh "docker push $DOCKER_HUB/$IMAGE_NAME:$TAG"
-
-                sh "docker tag $DOCKER_HUB/$IMAGE_NAME:$TAG $DOCKER_HUB/$IMAGE_NAME:latest"
-                sh "docker push $DOCKER_HUB/$IMAGE_NAME:latest"
             }
         }
 
