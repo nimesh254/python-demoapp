@@ -2,7 +2,9 @@ pipeline {
     agent any
 
     environment {
+        DOCKER_HUB = "nimesh254"
         IMAGE_NAME = "demoapp"
+        TAG = "${BUILD_NUMBER}"
         CONTAINER_NAME = "demoapp-container"
         PORT = "5001"
     }
@@ -11,48 +13,47 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                echo "Pulling latest code..."
                 checkout scm
             }
         }
 
-        stage('Build Docker Image') {
+        stage('Build Image') {
             steps {
                 echo "Building Docker image..."
-                sh "docker build -t $IMAGE_NAME -f build/Dockerfile ."
+                sh "docker build -t $DOCKER_HUB/$IMAGE_NAME:$TAG -f build/Dockerfile ."
             }
         }
 
-        stage('Stop Old Container') {
+        stage('Push Image') {
             steps {
-                echo "Stopping old container..."
-                sh "docker stop $CONTAINER_NAME || true"
-                sh "docker rm $CONTAINER_NAME || true"
+                echo "Pushing image to Docker Hub..."
+                sh "docker push $DOCKER_HUB/$IMAGE_NAME:$TAG"
             }
         }
 
-        stage('Run New Container') {
+        stage('Deploy') {
             steps {
-                echo "Starting new container..."
-                sh "docker run -d -p $PORT:5000 --name $CONTAINER_NAME $IMAGE_NAME"
+                echo "Deploying container..."
+
+                sh "docker rm -f $CONTAINER_NAME || true"
+
+                sh "docker run -d -p $PORT:5000 --name $CONTAINER_NAME $DOCKER_HUB/$IMAGE_NAME:$TAG"
             }
         }
 
-        stage('Verify Deployment') {
+        stage('Verify') {
             steps {
-                echo "Running containers:"
                 sh "docker ps"
-                sh "curl http://localhost:$PORT || true"
             }
         }
     }
 
     post {
         success {
-            echo "Deployment SUCCESS 🚀"
+            echo "CI/CD SUCCESS 🚀"
         }
         failure {
-            echo "Deployment FAILED ❌ Check logs"
+            echo "CI/CD FAILED ❌"
         }
     }
 }
